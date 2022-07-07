@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
 #  summary should be tweet-length, and the description more in depth.
 #
 
-spec.name         = "ShuftiPro"
-spec.version      = "2.0.4"
+spec.name         = "ShuftiProo"
+spec.version      = "1.2.0"
 spec.summary      = "Shufti Pro is designed to verify documents in realtime."
 
 # This description is used to generate tags and improve search results.
@@ -59,7 +59,7 @@ spec.author             = { "Shufti Pro" => "support@shuftipro.com" }
 #  the deployment target. You can optionally include the target after the platform.
 #
 
-spec.platform     = :ios, "11.0"
+spec.platform     = :ios, "13.0"
 
 
 # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -79,12 +79,12 @@ spec.source       = { :git => "https://github.com/shuftipro/flutter_ios_plugin",
 #  Not including the public_header_files will make all headers public.
 #
 
-spec.ios.vendored_frameworks = 'ShuftiPro.xcframework'
+spec.ios.vendored_frameworks = 'ShuftiProo.xcframework'
 spec.swift_version = "5"
 
-# spec.source_files  = "ShuftiPro.framework/Headers/*.h"
+# spec.source_files  = "ShuftiProo.framework/Headers/*.h"
 # spec.exclude_files = "Classes/Exclude"
 
-# spec.public_header_files = "ShuftiPro.framework/Headers/*.h"
+# spec.public_header_files = "ShuftiProo.framework/Headers/*.h"
 
 end
